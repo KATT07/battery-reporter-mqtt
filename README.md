@@ -9,7 +9,7 @@ Following pip packages are required
 + psutil
 + paho-mqtt
 
-To Install Dependencies Copy the following steps
+To Install Dependencies Copy the following
 ```
 pip install psutil paho-mqtt
 ```
