@@ -11,7 +11,7 @@ topic = "XXX/XXX"
 
 
 battery_status = psutil.sensors_battery()
-client = mqtt.Client(client_name)  # create new instance
+client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1,client_name)  # create new instance
 # client.username_pw_set(username, password)
 client.connect(broker_address)  # connect to broker
 
